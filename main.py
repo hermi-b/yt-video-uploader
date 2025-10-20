@@ -5,7 +5,6 @@ from googleapiclient.http import MediaFileUpload
 
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 VIDEO_DIR = './video'
-
 def get_youtube_service():
     flow = InstalledAppFlow.from_client_secrets_file(
         'client_secret.json', SCOPES)
