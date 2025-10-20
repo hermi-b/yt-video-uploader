@@ -1,3 +1,4 @@
 video/*
 client_secret.json
+# ignore OAuth token file
 token.json
